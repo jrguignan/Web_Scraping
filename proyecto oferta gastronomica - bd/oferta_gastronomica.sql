@@ -1,16 +1,4 @@
 #Se creo la base de datos y tabla ya directo en python con pymysql
-/*DROP DATABASE oferta_gastronomica;
-CREATE DATABASE oferta_gastronomica;
-USE oferta_gastronomica;
-CREATE TABLE oferta (
-	id_local INT NOT NULL AUTO_INCREMENT,
-    nombre VARCHAR (40),
-    categoria VARCHAR (40),
-    direccion VARCHAR (80),oferta
-    barrio VARCHAR (40),
-    comuna VARCHAR (40),
-    PRIMARY KEY (id_local)
-    ); */
 
 #cambia un error en una comuna
 USE oferta_gastronomica; 
