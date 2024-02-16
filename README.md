@@ -62,10 +62,10 @@ Es similar a la versión anterior con la siguiente variación.<br>
 
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
 
--Se tomó la información de un archivo .csv directo del siguiente link [ttps://cdn.buenosaires.gob.ar/datosabiertos/datasets/ente-de-turismo/oferta-establecimientos-gastronomicos/oferta_gastronomica.csv](ttps://cdn.buenosaires.gob.ar/datosabiertos/datasets/ente-de-turismo/oferta-establecimientos-gastronomicos/oferta_gastronomica.csv) con beautifulsoup.
+-Se tomó la información de un archivo .csv directo del siguiente [link](ttps://cdn.buenosaires.gob.ar/datosabiertos/datasets/ente-de-turismo/oferta-establecimientos-gastronomicos/oferta_gastronomica.csv) a traves de beautifulsoup, de la página [https://buenosaires.gob.ar/inicio/](https://buenosaires.gob.ar/inicio/)
 - Se limpió la información, se crearon las listas con los valores del archivo.
 - Se creó la base de datos **oferta_gastronomica** de manera local.
-- Se creó la tabla **oferta**,
+- Se creó la tabla **oferta**.
 - Se cargaron las listas a la base de datos.
 
 
