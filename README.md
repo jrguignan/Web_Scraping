@@ -1,24 +1,29 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Beautifulsoup](https://shields.io/badge/BeautifulSoup-4-green)
+![MySQL](https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue)
 ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
 ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy)
-![Pysql](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy)
-![MySQL](https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue)
-![Beautifulsoup](https://shields.io/badge/BeautifulSoup-4-green)
 
 
 # Proyectos de Web Scraping
+
 <p align="center">
 <img src="https://github.com/jrguignan/Web_Scraping/blob/main/images/web_scraping.jpeg"  height=400>
 </p>
 
-# Índice Rápido
+
+
+
+# Índice 
 * [Proyecto Top Libros](#Proyecto-Top-Libros)
 * [Proyecto Top Libros con Base de Datos](#Proyecto-Top-Libros-con-Base-de-Datos)
 * [Proyecto Oferta Gastronómica con Base de Datos](#Proyecto-Oferta-Gastronómica-con-Base-de-Datos)
 * [Nota](#Nota)
 * [Requerimientos](#Requerimientos)
 * [Autor](#Autor)
+
+
 
 
 # [Proyecto Top Libros](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros) 
@@ -29,32 +34,40 @@ El proyecto consta de guardar la información del top de 100 libros de la págin
 
 - Se tomó la información de [https://cuspide.com/100-mas-vendidos/](https://cuspide.com/100-mas-vendidos/) con beautifulsoup.
 - Se llevó la información a listas.
-- Se pasó a un dataframe de pandas.
+- Se pasaron las listas a un dataframe de pandas.
 - Se tomo la informacion del tipo de cambio de siguiente [link USD](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=ARS&To=USD) y [link EUR](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=USD&To=EUR)
-- Se crearon las columnas Precios_USD , Precios_EUR y la columna con la fecha.
+- Se crearon las columnas **Precios_USD** , **Precios_euro** y la columna con la **fecha**.
 - Se guardó el dataframe en un archivo csv.
 
 
 [Versión 2](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20top%20libros/top%20libros%20v2.ipynb) 
 
-Es similar a la versión anterior con la siguiente variación.
+Es similar a la versión anterior con la siguiente variación.<br>
 -A partir de las direcciones url, se entro a cada una y alli se tomo el valor en pesos argentinos y dolares norteapericanos. 
+
 
 
 # [Proyecto Top Libros con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros%20-%20bd)   
 
--
--
--
--
--
--
+- Se tomó la información de [https://cuspide.com/100-mas-vendidos/](https://cuspide.com/100-mas-vendidos/) con beautifulsoup.
+- Se llevó la información a listas.
+- Se tomo la informacion del tipo de cambio de siguiente [link USD](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=ARS&To=USD) y [link EUR](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=USD&To=EUR)
+- Se crearon las columnas **Precios_dolar** , **Precios_euro** y la columna con la **fecha**.
+- Se creó una base de datos **top_libros** en el servidor local, a traves de pysql.
+- Se creó una tabla **top** 
+- Se procedió a cargar la informacion de las listas a la tabla top, usando la función **executemany**
+
 
 
 
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
 
-
+-Se tomó la información de [https://cuspide.com/100-mas-vendidos/](https://cuspide.com/100-mas-vendidos/) con beautifulsoup.
+-
+-
+-
+-
+-
 
 
 
@@ -75,7 +88,7 @@ Con el paso del tiempo se modifica el código funte de las páginas web y se mod
 
 
 
-<br>[Volver al Índice](#Índice-Rápido)
+<br>[Volver al Índice](#Índice)
 
 
 
