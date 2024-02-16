@@ -25,7 +25,7 @@
 
 
 
-
+<br>
 # [Proyecto Top Libros](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros) 
 
 El proyecto consta de guardar la información del top de 100 libros de la página [https://cuspide.com/](https://cuspide.com/), en un archivo csv, agregando tres columnas extras, con el precio en dólares norteamericanos y euros, y  la fecha en que se guarda la información. 
@@ -46,7 +46,7 @@ Es similar a la versión anterior con la siguiente variación.<br>
 -A partir de las direcciones url, se entró a cada una y allí se tomo el valor en pesos argentinos y dólares norteamericanos. 
 
 
-
+<br>
 # [Proyecto Top Libros con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros%20-%20bd)   
 
 - Se tomó la información de [https://cuspide.com/100-mas-vendidos/](https://cuspide.com/100-mas-vendidos/) con beautifulsoup.
@@ -59,10 +59,10 @@ Es similar a la versión anterior con la siguiente variación.<br>
 
 
 
-
+<br>
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
 
-- Se tomó la información de un archivo .csv directo del siguiente [link](ttps://cdn.buenosaires.gob.ar/datosabiertos/datasets/ente-de-turismo/oferta-establecimientos-gastronomicos/oferta_gastronomica.csv) a traves de beautifulsoup, de la página [https://buenosaires.gob.ar/inicio/](https://buenosaires.gob.ar/inicio/)
+- Se tomó la información de un archivo .csv directo del siguiente [link](https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ente-de-turismo/oferta-establecimientos-gastronomicos/oferta_gastronomica.csv) a traves de beautifulsoup, de la página [https://buenosaires.gob.ar/inicio/](https://buenosaires.gob.ar/inicio/)
 - Se limpió la información, se crearon las listas con los valores del archivo.
 - Se creó la base de datos **oferta_gastronomica** de manera local.
 - Se creó la tabla **oferta**.
