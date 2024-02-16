@@ -6,7 +6,7 @@
 
 # Proyectos de Web Scraping
 <p align="center">
-<img src=""  height=300>
+<img src="https://github.com/jrguignan/Web_Scraping/blob/main/images/web_scraping.jpeg"  height=400>
 </p>
 
 # Índice Rápido
@@ -17,18 +17,19 @@
 * [Autor](#Autor)
 
 
-# Proyecto Top Libros 
+# [Proyecto Top Libros](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros) 
 
 
 <br>[Volver al Índice](#Índice-Rápido)
 
-# Proyecto Top Libros con Base de Datos   
+# [Proyecto Top Libros con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros%20-%20bd)   
 
 
 
 <br>[Volver al Índice](#Índice-Rápido)
 
-# Proyecto Oferta Gastronómica con Base de Datos  
+# [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
+
 
 <br>[Volver al Índice](#Índice-Rápido)
 
