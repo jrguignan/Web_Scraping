@@ -35,7 +35,7 @@ El proyecto consta de guardar la información del top de 100 libros de la págin
 - Se tomó la información de [https://cuspide.com/100-mas-vendidos/](https://cuspide.com/100-mas-vendidos/) con beautifulsoup.
 - Se llevó la información a listas.
 - Se pasaron las listas a un dataframe de pandas.
-- Se tomo la informacion del tipo de cambio de siguiente [link USD](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=ARS&To=USD) y [link EUR](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=USD&To=EUR)
+- Se tomo la información del tipo de cambio de siguiente [link USD](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=ARS&To=USD) y [link EUR](https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=USD&To=EUR)
 - Se crearon las columnas **Precios_USD** , **Precios_euro** y la columna con la **fecha**.
 - Se guardó el dataframe en un archivo csv.
 
@@ -55,7 +55,7 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se crearon las columnas **Precios_dolar** , **Precios_euro** y la columna con la **fecha**.
 - Se creó una base de datos **top_libros** en el servidor local, a traves de **pysql**.
 - Se creó una tabla **top**. 
-- Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.<br>
+- Se procedió a cargar la información de las listas a la tabla **top**, usando la función **executemany**.<br>
 
 
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
