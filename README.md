@@ -65,6 +65,7 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se creó la base de datos **oferta_gastronomica** de manera local.
 - Se creó la tabla **oferta**.
 - Se cargaron las listas a la base de datos.
+
 [Archivo.csv](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) de donde se saco la información en su momento (20/10/23).
 
 [Archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) donde se hizo una pequeña limpieza a la base de datos con **Mysql**.<br>
