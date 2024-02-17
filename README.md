@@ -43,7 +43,7 @@ El proyecto consta de guardar la información del top de 100 libros de la págin
 [Versión 2](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20top%20libros/top%20libros%20v2.ipynb) 
 
 Es similar a la versión anterior con la siguiente variación.<br>
--A partir de las direcciones url, se entró a cada una y allí se tomo el valor en pesos argentinos y dólares norteamericanos.<br> 
+- A partir de las direcciones url, se entró a cada una y allí se tomo el valor en pesos argentinos y dólares norteamericanos.<br> 
 
 
 
@@ -55,7 +55,12 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se crearon las columnas **Precios_dolar** , **Precios_euro** y la columna con la **fecha**.
 - Se creó una base de datos **top_libros** en el servidor local, a traves de **pysql**.
 - Se creó una tabla **top**. 
-- Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.<br>
+- Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.
+
+[Archivo](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) .csv de donde se saco la informacion en su momento (20/10/23).
+
+Se hizo una pequeña limpieza a la base de datos con **Mysql**, [archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv)
+<br>
 
 
 
@@ -71,7 +76,7 @@ Es similar a la versión anterior con la siguiente variación.<br>
 
 
 # Nota
-Con el paso del tiempo se modifica el código funte de las páginas web y se modifica la información mostradda en las mismas, por lo que es muy probable que los códigos anteriores no funcionen en su totalidad.<br>
+Con el paso del tiempo se modifica el código funte de las páginas web y se modifica la información mostrada en las mismas, por lo que es muy probable que los códigos anteriores no funcionen en su totalidad.<br>
 
 
 # Requerimientos   
