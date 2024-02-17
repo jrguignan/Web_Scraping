@@ -57,12 +57,10 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se creó una tabla **top**. 
 - Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.
 
-[Archivo](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) .csv de donde se saco la informacion en su momento (20/10/23).
+[Archivo.csv](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) de donde se saco la información en su momento (20/10/23).
 
-Se hizo una pequeña limpieza a la base de datos con **Mysql**, [archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv)
+[Archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) donde se hizo una pequeña limpieza a la base de datos con **Mysql**.
 <br>
-
-
 
 
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
