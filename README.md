@@ -21,11 +21,11 @@
 * [Proyecto Oferta Gastronómica con Base de Datos](#Proyecto-Oferta-Gastronómica-con-Base-de-Datos)
 * [Nota](#Nota)
 * [Requerimientos](#Requerimientos)
-* [Autor](#Autor)
+* [Autor](#Autor)<br>
 
 
 
-<br>
+
 # [Proyecto Top Libros](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20top%20libros) 
 
 El proyecto consta de guardar la información del top de 100 libros de la página [https://cuspide.com/](https://cuspide.com/), en un archivo csv, agregando tres columnas extras, con el precio en dólares norteamericanos y euros, y  la fecha en que se guarda la información. 
