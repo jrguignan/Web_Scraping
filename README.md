@@ -55,12 +55,7 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se crearon las columnas **Precios_dolar** , **Precios_euro** y la columna con la **fecha**.
 - Se creó una base de datos **top_libros** en el servidor local, a traves de **pysql**.
 - Se creó una tabla **top**. 
-- Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.
-
-[Archivo.csv](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) de donde se saco la información en su momento (20/10/23).
-
-[Archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) donde se hizo una pequeña limpieza a la base de datos con **Mysql**.
-<br>
+- Se procedió a cargar la informacion de las listas a la tabla **top**, usando la función **executemany**.<br>
 
 
 # [Proyecto Oferta Gastronómica con Base de Datos](https://github.com/jrguignan/Web_Scraping/tree/main/proyecto%20oferta%20gastronomica%20-%20bd)  
@@ -69,7 +64,10 @@ Es similar a la versión anterior con la siguiente variación.<br>
 - Se limpió la información, se crearon las listas con los valores del archivo.
 - Se creó la base de datos **oferta_gastronomica** de manera local.
 - Se creó la tabla **oferta**.
-- Se cargaron las listas a la base de datos.<br>
+- Se cargaron las listas a la base de datos.
+[Archivo.csv](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) de donde se saco la información en su momento (20/10/23).
+
+[Archivo .sql](https://github.com/jrguignan/Web_Scraping/blob/main/proyecto%20oferta%20gastronomica%20-%20bd/Data%20oferta_gastronomica.csv) donde se hizo una pequeña limpieza a la base de datos con **Mysql**.<br>
 
 
 
